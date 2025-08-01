@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { AudioLines } from 'lucide-react';
 import { toast } from 'react-toastify';
 import ConfirmCounter from '@/components/kiosk/confirm-counter';
-import VirtualKeyboard from './VirtualKeyboard';
+//import VirtualKeyboard from './VirtualKeyboard';
 import SpeechToText from './SpeechToText';
 import { useCreateTicket } from '@/hooks/useApi';
 import { useOptimizedSearch } from '@/hooks/useOptimizedSearch';
