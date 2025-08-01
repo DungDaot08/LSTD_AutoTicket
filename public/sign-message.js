@@ -42,33 +42,33 @@
  *        to the web server.  Don't trust the CDN above to be available.
  */
 var privateKey = "-----BEGIN PRIVATE KEY-----\n" +
-"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1MEQ/om1+pNmA\n" +
-"DxwE+3O1V3rcnQzj5eJIiEzDW+CgzGniiA8LVo0BanWhxe6ogiq7zPgV4S40/ki2\n" +
-"sWXTi+GCowWoLsgIfJGYnhfDPXIqr0fXvE5t19BauSVpYihrBgRQQCrjOWVP9szl\n" +
-"z8A1WM/y4ODYPn/Z1feoDU4to1crine/0L2Wdx/x45FMpAAwHaMIAi+he1QCnaXa\n" +
-"2yFxipqz4yoXHdVaqQ3JL0OrGpHCqCocX6+AA3Aw7Dt6BhiFVYY84hXsW+vAR/Rd\n" +
-"YhJdeqmaCXY/liD6dinZqpGfJVuUjj8+askgONGDI7+XMSj1nXV8snLQuUSQEZS6\n" +
-"5S8f4s9dAgMBAAECggEARTEIbxCVJc7ILGoYtiJcPn0IsyTaXlFUh4RdZCE698z4\n" +
-"BoUU0aycrlS8VSnkCL+kmBEfECPs5FnS5Ml77Dw3ww6EQ4SR6QPBCfodcvaNGZXU\n" +
-"JqOHg9TtgSfBDKxqaOxkS00l054AfXfvKTeb3ANtbf/IfWvooQRfzfI+z5jX2g0i\n" +
-"0GBiSJQMyNh5R6Nc73rvU7lBfbYRbl53yVDGdNjL/C7+/9kFFILmEURiZu75hgwp\n" +
-"cuUP4H+CKHC5mp5k8KFde0rCEMbRog3LsIMgp7bInp0Wtpq0Hg9SDJmT4om+rU0U\n" +
-"dzA8cN/AUhN+rPOreqEpd48xBNkPvRamo5wgZuDdVQKBgQDopqbkZkbJGgABT7CB\n" +
-"OZVt4+hk3FXmlk8Mjm6jIfFiD0SmTfdIkQc64fXsaYAcDOefl2WY39LRi7W+5l5V\n" +
-"ZTFeI6vU79qzCwarY4Nt1+8QpPWXJTDewowCw49wko5mGLjgiY5fuajHH+3JRJFN\n" +
-"IbXTso5PecxvG/1o54NoFgKHCwKBgQDHX2yTSLGpANptPTvJz1NoXwDaCDOVNZAN\n" +
-"Y54I2HL3eX5/DSRpr8ilo26d2m4nTgij0KfcM9Snm0BD2o1dpNP9vnAQccqHOg2Z\n" +
-"zVWvfRy2VLDM/aM/vDYh2ZXHjg0Upp+o/ISRu3YEIRKAPtFSToCiu8iATMRXc5/u\n" +
-"oimhcnbkNwKBgG08CjJFP0ke9w+mjfYuxlWBY9Uvivmoa1c27QWVY1OqXY5EHy4o\n" +
-"Qh/IhoJJCsig2oQZPq+nr8GJen02huZLjAFqeDyTnbjhHXGNWOFTOME04sbjxG1j\n" +
-"JQALOCcf+NJBG1T54Spa7r8H48rTcfGoOUo7lQwF4RHuL254/T76zpb/AoGALNpy\n" +
-"+s+n6HWgrmLQSJ60DQ8Sifq+YBskxV5b93F6q+JRaxPx1TUO1vTlte2mSoFrwC75\n" +
-"FLk0ZmCvHJTWqPKkHrnxTEHNZo7Q8IEZfdmP1BVJkVSenYAiTYs9/x8eIj86PDJT\n" +
-"QNYDvvoRx3hab0Hp/rJwcSzUHziMCovBAelWhhECgYEA4ccyXi02oJD/LDdYdgqr\n" +
-"n8/g1uojfuzbbseEC5MXYzmVg4aWvcmUrXkUs0IPMQYBqCDxaRlcMw0+4+qy3YIb\n" +
-"JXlaIvHXhGyw9WJdLp9Rrtg3rV4X1MH05jm4rqwVMPxW1XAePca1LtV/nQ21vo7J\n" +
-"EQKS00I3z8+xdRVtkdblt+w=\n" +
-"-----END PRIVATE KEY-----\n";
+"MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDF+oWeq7rTK2nu\n" +
+"K68VOzRxqk66+loIC0kw7N6haI98NXXSOt+bYepaPOozHBEHMfGUUfS1KKs+UdcY\n" +
+"MGjGo702q5TVcL16wkU5SU7nFxN38wAE+urx1rIO+i7xGhac8qXh1bgWPZdCmLOV\n" +
+"ToU7HqaPeb53xIEozBkcu4fTqGeuDrua8KaTUocp1UrsAwFlXO0Sv1g+CL2BxBY6\n" +
+"jo5KBUiSJe+bUoyrB2dI5EIQnzOHjNl5y8WgyWOfCiYZeK8RIFS5K+YGg7kemmX8\n" +
+"LphD/mFOh6pzcLXEZuhwxUBom9lrBoXifE7Ur14sES03fDW3NIg9kR2uzf0yXpUS\n" +
+"ieBqv5zfAgMBAAECggEABvrOlCn8w64fpXBv00FLl4hID0p9OxRex7VKIgmkKV5f\n" +
+"IYLG2F0K3JSSMywVo5nMqQx8ophk9SUAfs9SGlKyfIdvD1lSrM3Fj//4IqiLHKr6\n" +
+"ALLx7oXBsEp8ti5TxsO9OmmE/G++cfAdQLHMe6mYeK1znBhW71/GsN8hqkIhKZ82\n" +
+"XHoQK41GgSa9azpxfi/yOSTr8CpCooSUL9hKu2J78qSF4jJ8STh3QAX1LxN3HE1z\n" +
+"JKuynu8jRRulk1z2BCawSK3XBfQxVXQpV1Bn3PD7DcmnXuGEaoPeotFyXcsQyOpw\n" +
+"jAdEw/qC4yvZACYHMxeD9p+C1Bp3wMsE51EREjb93QKBgQD9kUwDrQGrTDe3fsWq\n" +
+"wnsIFPH1HjQ0Ga7HXMEjymx5oQKf7UtHEA/cAZ71iZBBf9lkoxEe6+kCQJSAihoK\n" +
+"ha4BGebw0QKWnhs78/CsecVjloJ9lZpV486VwT55QzFmcFB0Ls7q9rUPfMh95mzv\n" +
+"0H11fNFYCXbNpRmySbkvicGIHQKBgQDH4LYgT5SbHLAuqLLCpn13Lhgqxg+5rxTX\n" +
+"manlhUdyBfimodrmISvmTPQr5McEOg1gGyoxaWTfbjPBs6bzwNQrQDDFJTFwUlmD\n" +
+"8qoKcVL5UANGLh+UVjs8SJXhp+N85dsw1vywdPcqGdiX0+jXwRNAYvYDZ0K0NESI\n" +
+"HTEK7UjAKwKBgQDcxfYeOTL711enn2wxejUu2zWzysF/H2Fq2Vqcc/GwkLy9TBk/\n" +
+"3T9BufOSK1z7enpoQgZ1Gsf8mwfxRszXnn7bHJdT01dilnR15bYGJdv0Eqa4+1mu\n" +
+"MLO89c0UPam0XFPgZKTqNTV+L5JM9CSjRK8HbU7ETTEwafCOp9viBRoJDQKBgEbg\n" +
+"GNTWQ0TJZHP3IARD00Oalbk9KEBYpBRbidI4c4AsO+KijCOEabOtX/vckPGfwDRv\n" +
+"DYQd8kYEJtgt4yqWGuYHSgPuT1yb5uASAVfYnWqIg9Cz9EC+XxzeRD+TL+iO/S2R\n" +
+"XmMX5rkIFzSnUO6IqVHwhXnpeM67pf16FHTidSSnAoGBAPb0hL6LAurR7W2uW2gf\n" +
+"Xv7gsJrSYf0PUe1+PNyDVDi7wBL6+nIkG55+nqNAT1HENwwndk0Epcg07Qwbw1qp\n" +
+"R6J7ixCtUOYde7f2XBSj9WRv7Dg9/GZ2S8zQp0eozTOr4umBJ7vW2BnPHRaWlHuC\n" +
+"vz+asH7StgndDFAZiRd5jEv/\n" +
+"-----END PRIVATE KEY-----\n" ;
 
 qz.security.setSignatureAlgorithm("SHA512"); // Since 2.1
 qz.security.setSignaturePromise(function(toSign) {

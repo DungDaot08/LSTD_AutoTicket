@@ -136,33 +136,35 @@ const  PrintTicket: React.FC<PrintTicketProps> = ({
       }
       (qz as any).security.setCertificatePromise(function (resolve: any, reject: any) {
   resolve("-----BEGIN CERTIFICATE-----\n" +
-"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
+"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
-"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
+"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
-"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
+"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\n" +
 "-----END CERTIFICATE-----\n"
 );
 });
 
-(qz as any).security.setSignatureAlgorithm("SHA512");
+    
+
+    (qz as any).security.setSignatureAlgorithm("SHA512");
 
 
       setPrintStatus('🖨️ Đang kết nối QZ Tray...');
@@ -172,7 +174,7 @@ const  PrintTicket: React.FC<PrintTicketProps> = ({
 
       setPrintStatus('🖨️ Đang gửi lệnh in qua QZ Tray...');
       const ticketHTML = generateThermalTicketHTML(timeString, dateString);
-      const config = qz.configs.create('Microsoft Print to PDF', {
+      const config = qz.configs.create('W80', {
         encoding: 'RAW',
         copies: 1,
         rasterize: true
@@ -247,10 +249,25 @@ const  PrintTicket: React.FC<PrintTicketProps> = ({
 
   // 🔄 Auto-load QZ Tray scripts và auto-print khi mount
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      loadQZTrayScripts();
-    }
-  }, []);
+      if (typeof window !== 'undefined') {
+        loadQZTrayScripts();
+        // Chỉ connect QZ Tray một lần khi bắt đầu phiên
+        const connectQZTray = async () => {
+          const qz = (window as any).qz;
+          if (qz && qz.websocket && !qz.websocket.isActive()) {
+            setPrintStatus('🖨️ Đang kết nối QZ Tray...');
+            try {
+              await qz.websocket.connect();
+              setPrintStatus('✅ QZ Tray đã kết nối');
+            } catch (err) {
+              setPrintStatus('❌ QZ Tray chưa sẵn sàng hoặc không thể kết nối. Vui lòng kiểm tra lại QZ Tray.');
+            }
+          }
+        };
+        // Đợi scripts load xong mới connect
+        setTimeout(connectQZTray, 1000);
+      }
+    }, []);
 
 useEffect(() => {
   // Chỉ gọi in khi autoPrint=true và qzReady=true
